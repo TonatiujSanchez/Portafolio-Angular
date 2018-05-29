@@ -4,7 +4,7 @@ import { Http } from "@angular/http";
 @Injectable()
 export class InformacionService {
   info:any={};
-  equipo:any={};
+  equipo:any=[];
   cargada:boolean=false;
   cargada_sobre_nosotros:boolean=false;
   constructor( public http:Http) {
