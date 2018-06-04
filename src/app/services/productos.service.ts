@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from "@angular/http";
-import { LOADIPHLPAPI, resolve } from 'dns';
-import { reject } from 'q';
+
 
 @Injectable()
 export class ProductosService {
